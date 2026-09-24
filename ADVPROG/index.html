@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Dhaniel Magpantay | Software Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons Library -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i data-lucide="code-2"></i></span>
+                <span>Dhaniel<span class="gradient-text">.dev</span></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#chatbot" class="nav-link">Ask AI Bot</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode">
+                    <i data-lucide="sun" id="themeIcon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Mobile Navigation">
+                    <i data-lucide="menu" id="menuIcon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <div class="badge">
+                        <span class="badge-dot"></span>
+                        Online
+                    </div>
+                    <h1 class="hero-title">
+                        Building Digital Products with <span class="gradient-text">Precision & Speed</span>
+                    </h1>
+                    <p class="hero-subtitle">Mark Dhaniel Magpantay — Student Of BS Computer Science</p>
+                    <p class="hero-bio">
+                       A Student who try to understand and Study the Coding.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View Portfolio <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            Get In Touch
+                        </a>
+                    </div>
+                </div>
+
+                <div class="profile-wrapper">
+                    <div class="glass-card profile-card">
+                        <img src="pic.jpg" 
+                             alt="Alex Rivera Profile" 
+                             class="profile-img"
+                             onerror="this.src='https://placehold.co/600x700/0284c7/ffffff?text=Alex+Rivera'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">A brief look into my background, education, and milestones.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="glass-card about-card">
+                        <div class="about-card-header">
+                            <div class="about-icon"><i data-lucide="user"></i></div>
+                            <h3 class="about-card-title">My Story</h3>
+                        </div>
+                        <p class="about-text">
+                           I am from Anilao, Lipa City and I'm taking a Computer Science course in Lipa City Colleges.
+                        </p>
+                        <p class="about-text">
+                           
+                        </p>
+                    </div>
+
+                    <div class="glass-card about-card">
+                        <div class="about-card-header">
+                            <div class="about-icon"><i data-lucide="award"></i></div>
+                            <h3 class="about-card-title">Education & Achievement</h3>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-title">B.S. in Computer Science</div>
+                                <div class="timeline-meta">Lipa City Colleges • 2026 - 2027</div>
+                                <p class="timeline-desc">Graduated at LCC Silvercrest </p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-title">Volleyball</div>
+                                <div class="timeline-meta">LCC BLAZING HAWKS • 2023 - Present</div>
+                                <p class="timeline-desc">Win a Title and got an award in BUSCAA. Present Captain of Volleyball Team.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <p class="section-subtitle">My Skills in Coding.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon-box"><i data-lucide="file-code-2"></i></div>
+                        <div class="skill-name">HTML5</div>
+                        <div class="skill-level"><div class="skill-bar" style="width: 50%;"></div></div>
+                    </div>
+
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon-box"><i data-lucide="palette"></i></div>
+                        <div class="skill-name">CSS3 / Tailwind</div>
+                        <div class="skill-level"><div class="skill-bar" style="width: 50%;"></div></div>
+                    </div>
+
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon-box"><i data-lucide="terminal"></i></div>
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-level"><div class="skill-bar" style="width: 40%;"></div></div>
+                    </div>
+
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon-box"><i data-lucide="atom"></i></div>
+                        <div class="skill-name">React</div>
+                        <div class="skill-level"><div class="skill-bar" style="width: 0%;"></div></div>
+                    </div>
+
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon-box"><i data-lucide="server"></i></div>
+                        <div class="skill-name">Node.js</div>
+                        <div class="skill-level"><div class="skill-bar" style="width: 0%;"></div></div>
+                    </div>
+
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon-box"><i data-lucide="git-branch"></i></div>
+                        <div class="skill-name">Git & GitHub</div>
+                        <div class="skill-level"><div class="skill-bar" style="width: 40%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">My Goals Taking Computer Science.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="glass-card project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" 
+                                 alt="Analytics Dashboard" 
+                                 class="project-img"
+                                 onerror="this.src='https://placehold.co/600x400/0284c7/ffffff?text=Analytics+Platform'">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">React</span>
+                                <span class="project-tag">Node.js</span>
+                                <span class="project-tag">Tailwind</span>
+                            </div>
+                            <h3 class="project-title">Explore other language.</h3>
+                            <p class="project-desc">
+                                Study other language.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-link demo-btn">
+                                    <i data-lucide="external-link"></i> Live Demo
+                                </a>
+                                <a href="#" class="project-link repo-btn">
+                                    <i data-lucide="github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card project-card">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800" 
+                                 alt="UI Component Library" 
+                                 class="project-img"
+                                 onerror="this.src='https://placehold.co/600x400/0284c7/ffffff?text=UI+Library'">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">CSS3</span>
+                                <span class="project-tag">HTML5</span>
+                            </div>
+                            <h3 class="project-title">Enchance Knowledge </h3>
+                            <p class="project-desc">
+                                To Understand more about HTML, CSS, and JavaScript.
+                            </p>
+                            <div class="project-links">
+                                <a href="#" class="project-link demo-btn">
+                                    <i data-lucide="external-link"></i> Live Demo
+                                </a>
+                                <a href="#" class="project-link repo-btn">
+                                    <i data-lucide="github"></i> Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="chatbot" class="section">
+            <div class="container chatbot-section">
+                <div class="section-header">
+                    <h2 class="section-title">Ask About Me</h2>
+                    <p class="section-subtitle">Chat with my automated AI assistant to instantly learn more about my experience.</p>
+                </div>
+
+                <div class="glass-card chat-container">
+                    <div class="chat-header">
+                        <div class="chat-header-info">
+                            <div class="chat-avatar"><i data-lucide="bot"></i></div>
+                            <div>
+                                <div class="chat-bot-title">Dhaniel Bot</div>
+                                <div class="chat-status"><span class="badge-dot"></span> Online & Ready</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot">
+                            <div class="message-bubble">
+                                Hello! 👋 I'm Dhaniel's automated assistant. Click any prompt below or type a question to get instant answers about Alex!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="preset-questions">
+                        <button class="preset-chip" data-question="What are your main skills?">What are your main skills?</button>
+                        <button class="preset-chip" data-question="Tell me about your education">Tell me about your education</button>
+                        <button class="preset-chip" data-question="What are your career goals?">What are your career goals?</button>
+                        <button class="preset-chip" data-question="Are you open to work/freelance?">Are you open to work/freelance?</button>
+                    </div>
+
+                    <form class="chat-input-area" id="chatForm">
+                        <input type="text" id="chatInput" class="chat-input" placeholder="Type your question..." required autocomplete="off">
+                        <button type="submit" class="chat-send-btn" aria-label="Send Message"><i data-lucide="send"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Interested in hiring me for a project? Let's connect!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div>
+                        <div class="contact-info-list">
+                            <div class="glass-card contact-info-item">
+                                <div class="contact-info-icon"><i data-lucide="mail"></i></div>
+                                <div>
+                                    <div class="contact-info-label">Direct Email</div>
+                                    <div class="contact-info-val">markdhaniel.magpantay29@gmail.com</div>
+                                </div>
+                            </div>
+
+                            <div class="glass-card contact-info-item">
+                                <div class="contact-info-icon"><i data-lucide="phone"></i></div>
+                                <div>
+                                    <div class="contact-info-label">Phone</div>
+                                    <div class="contact-info-val">09915539913</div>
+                                </div>
+                            </div>
+
+                            <div class="glass-card contact-info-item">
+                                <div class="contact-info-icon"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <div class="contact-info-label">Location</div>
+                                    <div class="contact-info-val">Anilao, Lipa City</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="=https://github.com/markdhanielmagpantay29-blip" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub"><i data-lucide="github"></i></a>
+                            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <form class="glass-card contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label class="form-label" for="formName">Name</label>
+                            <input type="text" id="formName" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="formEmail">Email</label>
+                            <input type="email" id="formEmail" class="form-input" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="formMessage">Message</label>
+                            <textarea id="formMessage" class="form-textarea" rows="4" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="justify-content: center;">
+                            Send Message <i data-lucide="send"></i>
+                        </button>
+                        <div id="formStatus" class="form-status success">
+                            Thank you! Your message has been sent successfully.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="currentYear"></span> Mark Dhaniel Magpantay. Future Web Developer</p>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
